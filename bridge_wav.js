@@ -1,5 +1,5 @@
 const fs = require("fs");
-const pkg = require("stagelinq");
+const pkg = require("@gree44/stagelinq");
 const StageLinq = pkg.StageLinq ?? pkg.default;
 
 const { LTCEncoder, LTC_USE_DATE } = require("libltc-wrapper");

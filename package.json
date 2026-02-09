@@ -11,9 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@gree44/stagelinq": "^3.0.4",
     "libltc-wrapper": "^1.1.2",
     "linear-timecode": "^0.1.0",
-    "speaker": "^0.5.5",
-    "stagelinq": "github:Gree44/StageLinq#main"
+    "speaker": "^0.5.5"
   }
 }

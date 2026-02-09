@@ -1,4 +1,4 @@
-const pkg = require("stagelinq");
+const pkg = require("@gree44/stagelinq");
 const StageLinq = pkg.StageLinq ?? pkg.default;
 
 const sampleRateByDeckNum = new Map(); // key: 1..4 (Deck1..Deck4)

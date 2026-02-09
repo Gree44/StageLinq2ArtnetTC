@@ -14,7 +14,7 @@
  */
 
 const dgram = require("dgram");
-const pkg = require("stagelinq");
+const pkg = require("@gree44/stagelinq");
 const StageLinq = pkg.StageLinq ?? pkg.default;
 
 const ARTNET_PORT = 6454;
