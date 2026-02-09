@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lockfiles (optional – keep if you want reproducible installs)
+# package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Audio / generated artifacts
+*.wav
+*.aiff
+*.mp3
+
+# Logs
+*.log
+
+# Build / cache
+dist/
+.cache/
+.tmp/
+
+# Env
+.env
+.env.*
