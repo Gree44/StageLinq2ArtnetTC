@@ -1,0 +1,16 @@
+{
+  "name": "dj-decks-web",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c auto \"npm:dev --workspace server\" \"npm:dev --workspace client\"",
+    "build": "npm -w client run build && npm -w server run build",
+    "start": "npm -w server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
